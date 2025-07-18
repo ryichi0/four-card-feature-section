@@ -136,6 +136,11 @@ p{
 .card-img{
     align-self: flex-end;
     margin-block-start: .5rem;
+
+    transition: transform 0.4s;
+}
+.card-img:hover{
+    transform: translate(0,-.5rem);
 }
 
 /* Colorful Borders */
